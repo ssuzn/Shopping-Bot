@@ -7,7 +7,7 @@ Discord API를 이용한 쇼핑을 도와주는 BOT 개발
 * ! (느낌표)를 접두사로 명령어 인식
 
 * 디스코드 서버에 사용자 입장했을 시
-![entry]()
+![entry](image/member_join.png)
 
 * !도움말 입력 시
 ![help]()
