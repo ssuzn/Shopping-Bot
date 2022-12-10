@@ -15,7 +15,7 @@ Discord API를 이용한 쇼핑을 도와주는 BOT 개발
 
 
 * 사용자가 서버에서 퇴장
-![member_out](https://user-images.githubusercontent.com/107746547/206863618-34730ff8-f122-4b15-96fc-fc694d0466a9.PNG)
+![member_out](https://user-images.githubusercontent.com/107746547/206863848-58ef70b0-8efc-46ec-9410-3869b40c8c6f.PNG)
 
 
 * !도움말 입력
@@ -54,5 +54,5 @@ Discord API를 이용한 쇼핑을 도와주는 BOT 개발
   
   
 * !추천 받기 입력
-![recommend](https://user-images.githubusercontent.com/107746547/206863548-20c1970c-676d-4d06-a613-2a5dc6de1e1c.PNG)
+![recommend](https://user-images.githubusercontent.com/107746547/206863887-325729c2-249a-496d-b70e-c5fbabc63dec.PNG)
 
