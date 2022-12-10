@@ -1,6 +1,7 @@
 # 쇼핑봇 :robot:
 ## Intro :tophat:
 Discord API를 이용한 쇼핑을 도와주는 BOT 개발
+
 사용자가 입력한 명령에 따라 온라인 의류 편집샵인 무신사에서 크롤링하여 의류 추천
 
 ## Description :shirt:
