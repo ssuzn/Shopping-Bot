@@ -111,7 +111,7 @@ async def on_message(message):
                 await message.channel.send('옷장 뒤적이는중...')
                 await message.channel.send(embed=select_color(cate, col))
 
-    if message.content == "!추천 받기":
+    if message.content == "!추천받기":
         embed = discord.Embed(title='위 제품이 어떤지 추천해 주세요!', description='이모티콘을 눌러 투표해주세요.')
         res = await message.channel.send(embed=embed)
         await res.add_reaction('👍')

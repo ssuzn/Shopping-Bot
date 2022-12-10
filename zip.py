@@ -1,7 +1,6 @@
 import discord
 from bs4 import BeautifulSoup
 import requests
-import random
 from data import *
 
 def find_channel(channels):
@@ -16,16 +15,16 @@ def help(message): # 도움말
     embed.set_thumbnail(url='https://imgur.com/fIJcRzc.jpg')
     embed.add_field(name='ㅤ', value='ㅤ', inline=True)
     embed.add_field(name='카테고리에서 찾길 원하시나요?',
-                    value='`!쇼핑을 입력해보세요.\n`'
+                    value='`!쇼핑`을 입력해보세요.\n'
                           '선택하신 카테고리에서 가장 인기 있는 제품을 추천해드려요!\n\n',
                     inline=False)
     embed.add_field(name='찾으시는 색상이 있으신가요?',
-                    value='`!색상을 입력해보세요.`\n'
+                    value='`!색상`을 입력해보세요.\n'
                           '선택하신 카테고리에서 원하시는 색상의 가장 인기 있는 제품을 추천해드려요!\n',
                     inline=False)
 
     embed.add_field(name='제품 구매에 고민되시나요?',
-                    value='`!추천 받기를 입력해보세요.`\n'
+                    value='`!추천받기`를 입력해보세요.\n'
                           '다른 사람들의 투표를 받을 수 있어요!\n',
                     inline=False)
     embed.add_field(name='ㅤ', value='ㅤ', inline=True)
