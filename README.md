@@ -6,7 +6,9 @@ Discord API를 이용한 쇼핑을 도와주는 BOT 개발
 ## Description
 * ! (느낌표)를 접두사로 명령어 인식
 
+
 * 봇이 서버에 입장
+
 ![bot_entry](https://user-images.githubusercontent.com/107746547/206863164-8e4354a1-6b36-44f3-bdd0-d5bbd26f0104.PNG)
 
 
