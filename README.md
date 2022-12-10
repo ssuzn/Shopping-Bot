@@ -1,7 +1,7 @@
 # 쇼핑봇
 ## Intro
 Discord API를 이용한 쇼핑을 도와주는 BOT 개발
-사용자가 입력한 명령에 따라 온라인 의류 편집숍인 무신사에서 크롤링하여 의류 추천
+사용자가 입력한 명령에 따라 온라인 의류 편집인 무신사에서 크롤링하여 의류 추천
 
 ## Description
 * ! (느낌표)를 접두사로 명령어 인식
@@ -70,4 +70,22 @@ Discord API를 이용한 쇼핑을 도와주는 BOT 개발
 * !추천 받기 입력
 
 ![recommend](https://user-images.githubusercontent.com/107746547/206863887-325729c2-249a-496d-b70e-c5fbabc63dec.PNG)
+
+
+## How to Use
+디스코드 서버 생성 후 아래 링크에 접속하여 서버에 봇을 추가하여 이용 가능
+https://discord.com/oauth2/authorize?client_id=1042075320930541620&permissions=8&scope=bot
+
+## Requirement
+프로젝트 개발 시 사용한 패키지 목록
+
+## License
+MIT 라이센스 적용
+
+
+## Reference
+* [건유1029](https://blog.yhs.kr/9) - 이벤트 함수 작성에 참고
+* [므느으르](https://m.blog.naver.com/PostView.naver?blogId=seojune5383&logNo=222335067548&targetKeyword=&targetRecommendationCode=1) - embed 작성에 참고
+* [proqk](https://foxtrotin.tistory.com/277) - 추천 기능 작성에 참고
+* [코코블루의 다락방](https://m.blog.naver.com/6116949/221949748751) - 사용자 서버 입/퇴장시 메세지 출력에 참고
 
