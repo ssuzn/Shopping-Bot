@@ -34,7 +34,7 @@ Discord API를 이용한 쇼핑을 도와주는 BOT 개발
 
 * !쇼핑 스니커즈 입력
  
-![shop](https://user-images.githubusercontent.com/107746547/206863283-50dab0c3-dcca-43d0-a247-8ee3fa4d359f.PNG)
+![shop](https://user-images.githubusercontent.com/107746547/206864295-999c46a2-b453-4570-9dc8-473982c99ad2.PNG)
 
 
 * !쇼핑 명령어에 대한 잘못된 카테고리 입력
@@ -49,7 +49,7 @@ Discord API를 이용한 쇼핑을 도와주는 BOT 개발
 
 * !색상 상의 green 입력
  
-![color](https://user-images.githubusercontent.com/107746547/206863431-d3a405e7-a012-4d85-bbdd-07935c9d7b1f.PNG)
+![colo](https://user-images.githubusercontent.com/107746547/206864299-09c20e28-b289-4229-b53c-e51f4545d2b2.PNG)
 
 
 * !색상 명령어에 대한 잘못된 입력
