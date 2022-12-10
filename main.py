@@ -1,8 +1,11 @@
 import discord
+from dotenv import load_dotenv
+import os
 from discord.ext import commands
 from zip import *
 from data import *
 
+load_dotenv()
 prefix = '!'
 intents = discord.Intents.all() # 봇이 서버 멤버의 정보나 서버 멤버 리스트를 불러올 수 있도록 허용
 
@@ -115,8 +118,8 @@ async def on_message(message):
         await res.add_reaction('👎')
 
 
-with open('token.txt', 'r') as f:
-    token = f.read()
+# with open('token.txt', 'r') as f:
+#     token = f.read()
 
-client.run(token)
+client.run(os.environ['token'])
 
