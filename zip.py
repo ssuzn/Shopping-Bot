@@ -133,7 +133,7 @@ def select_color(cate, col): # 카테고리 + 색상에서 추천
 
     return (embed)
 
-def hello(message):
-    txt = ['안녕하세요', '또 와주셨군요', '반가워요']
-    ans = random.randint(0, len(txt)-1)
-    return txt[ans]
+# def hello(message):
+#     txt = ['안녕하세요', '또 와주셨군요', '반가워요']
+#     ans = random.randint(0, len(txt)-1)
+#     return txt[ans]

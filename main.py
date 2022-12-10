@@ -61,7 +61,7 @@ async def on_message(message):
                 embed.set_thumbnail(url='https://imgur.com/mABzlJu.jpg')
                 await message.channel.send(embed=embed)
             else: # 잘 입력했으면 추천 결과
-                await message.channel.send('이 제품 어때요?')
+                await message.channel.send('옷장 뒤적이는중...')
                 res = await message.channel.send(embed=select_cloth(cate))
 
     if message.content.startswith("!색상"): # !색상 상의 green
@@ -107,7 +107,7 @@ async def on_message(message):
 
 
             else: # 오류 없음
-                await message.channel.send('이 제품 어때요?')
+                await message.channel.send('옷장 뒤적이는중...')
                 await message.channel.send(embed=select_color(cate, col))
 
     if message.content == "!추천 받기":
@@ -116,18 +116,6 @@ async def on_message(message):
         await res.add_reaction('👍')
         await res.add_reaction('👎')
 
-    # if message.content.startswith('!cody'):
-    #     val = message.content.split(' ')
-    #     cod = val[1] # 캐주얼
-    #     if cod not in style:
-    #         embed = discord.Embed(title='잘못된 입력이에요.',
-    #                               description='다음 중 하나를 입력해주세요.\n `아메리칸 캐주얼` `캐주얼` `시크` `댄디` `포멀` `걸리시` `레트로` `로맨틱` `스포츠` `스트릿`',
-    #                               color=0xFF0000)
-    #         await message.channel.send(embed=embed)
-    #
-    #     else:
-    #         await message.channel.send('이런 코디 어때요?')
-    #         await message.channel.send(embed=cody(cod))
 
 with open('token.txt', 'r') as f:
     token = f.read()
