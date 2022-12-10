@@ -4,24 +4,6 @@ import requests
 import random
 from data import *
 
-
-# def cody(cod):
-#     url = f'https://www.musinsa.com/app/styles/lists?use_yn_360=&style_type={style[cod]}&brand=&model=&tag_no=&max_rt=&min_rt=&display_cnt=60&list_kind=big&sort=date&page=1'
-#
-#     res = requests.get(url).text
-#     soup = BeautifulSoup(res, "html.parser")
-#
-#     data = soup.select('div.wrap > div.right_area > form > div.right_contents.hover_box > div > ul')
-#
-#     b = data.select_one('li > div.style-list-item__thumbnail > a > div > img')['src']
-#     c = data.select_one('li:nth-child(1) > img.style-list-thumbnail__img').get('src')
-#
-#     embed = discord.Embed(title='코디 추천', description='ㅤ', color=0x3399FF)
-#     embed.set_image(url='http:'+ )
-#
-#     return (embed)
-#
-
 def find_channel(channels):
     position_array = [i.position for i in channels]
 
@@ -37,12 +19,11 @@ def help(message): # 도움말
                     value='`!쇼핑을 입력해보세요.\n`'
                           '선택하신 카테고리에서 가장 인기 있는 제품을 추천해드려요!\n\n',
                     inline=False)
-    # embed.add_field(name='ㅤ', value='ㅤ', inline=True)
     embed.add_field(name='찾으시는 색상이 있으신가요?',
                     value='`!색상을 입력해보세요.`\n'
                           '선택하신 카테고리에서 원하시는 색상의 가장 인기 있는 제품을 추천해드려요!\n',
                     inline=False)
-    # embed.add_field(name='ㅤ', value='ㅤ', inline=True)
+
     embed.add_field(name='제품 구매에 고민되시나요?',
                     value='`!추천 받기를 입력해보세요.`\n'
                           '다른 사람들의 투표를 받을 수 있어요!\n',
@@ -132,8 +113,3 @@ def select_color(cate, col): # 카테고리 + 색상에서 추천
     embed.add_field(name='구매 링크', value='https:' + link, inline=False)
 
     return (embed)
-
-# def hello(message):
-#     txt = ['안녕하세요', '또 와주셨군요', '반가워요']
-#     ans = random.randint(0, len(txt)-1)
-#     return txt[ans]

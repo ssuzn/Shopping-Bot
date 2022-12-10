@@ -7,7 +7,6 @@ prefix = '!'
 intents = discord.Intents.all() # 봇이 서버 멤버의 정보나 서버 멤버 리스트를 불러올 수 있도록 허용
 
 client = commands.Bot(command_prefix=prefix, intents = intents)
-channel = client.get_channel(1050049957631107133)
 
 @client.event
 async def on_ready():
@@ -48,10 +47,10 @@ async def on_message(message):
         val = message.content.split(' ') # [!쇼핑, 상의, green]
 
         if len(val) == 1: # !쇼핑만 입력했을 경우
-            await message.channel.send(embed=desc_cloth(message)) # !cloth 설명 출력
+            await message.channel.send(embed=desc_cloth(message)) # !쇼핑 설명 출력
 
 
-        else: # !cloth 상의 입력했을 경우
+        else: # !쇼핑 상의 입력했을 경우
             cate = val[1] # 상의, 아우터
 
             if cate not in list: # list에 없는 단어 입력
@@ -87,7 +86,6 @@ async def on_message(message):
                                                     ' `상의` `아우터` `바지` `원피스` `스커트` `스니커즈` `신발`',
                                          color=0xFF0000)
                 embed.set_thumbnail(url='https://imgur.com/mABzlJu.jpg')
-                # await message.channel.send(cate,col)
                 await message.channel.send(embed=embed)
 
             elif col not in color and cate in list: # 색상 잘못 입력
