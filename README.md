@@ -68,9 +68,9 @@ Discord API를 이용한 쇼핑을 도와주는 BOT 개발
   ![2err](https://user-images.githubusercontent.com/107746547/206863495-1882ab82-f2f3-4048-9a87-48e7dc2e1833.PNG)
   
   
-* `!추천 받기` 입력
+* `!추천받기` 입력
 
-![recommend](https://user-images.githubusercontent.com/107746547/206863887-325729c2-249a-496d-b70e-c5fbabc63dec.PNG)
+![recommend](https://user-images.githubusercontent.com/107746547/206870155-bdbd25c1-aeac-4d03-8adb-9c1e3d7408b3.PNG)
 
 
 ## How to Use  :jeans:
