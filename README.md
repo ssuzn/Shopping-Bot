@@ -78,8 +78,11 @@ Discord API를 이용한 쇼핑을 도와주는 BOT 개발
 
 https://discord.com/oauth2/authorize?client_id=1042075320930541620&permissions=8&scope=bot
 
-## Requirement  :shoe:
-프로젝트 개발 시 사용한 패키지 목록
+## File  :shoe:
+* requirement.txt : 프로젝트 개발 시 사용한 패키지 목록
+* main.py : 봇 실행할 최종 파일
+* zip.py : 기능에 필요한 크롤링 모음 파일
+* data.py : 크롤링에 필요한 url과 dictionary 모음
 
 ## License :eyeglasses:
 MIT 라이센스 적용
