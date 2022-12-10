@@ -9,29 +9,38 @@ Discord API를 이용한 쇼핑을 도와주는 BOT 개발
 * 봇이 서버에 입장
 ![bot_entry](https://user-images.githubusercontent.com/107746547/206863164-8e4354a1-6b36-44f3-bdd0-d5bbd26f0104.PNG)
 
+
 * 디스코드 서버에 새로운 사용자 입장
 ![member_join](https://user-images.githubusercontent.com/107746547/206863087-bc6bb3f1-9386-4c2b-b528-f0597304ecb6.PNG)
+
 
 * 사용자가 서버에서 퇴장
 ![member_out](https://user-images.githubusercontent.com/107746547/206863618-34730ff8-f122-4b15-96fc-fc694d0466a9.PNG)
 
+
 * !도움말 입력
 ![help](https://user-images.githubusercontent.com/107746547/206863214-f78ccd6d-38f4-43a9-906d-e83d7e9d9d51.PNG)
+
 
 * !쇼핑 입력
 ![help_shop](https://user-images.githubusercontent.com/107746547/206863226-1efb20a8-02d7-40f2-8106-798000b9fd97.PNG)
 
+
 * !쇼핑 스니커즈 입력
 ![shop](https://user-images.githubusercontent.com/107746547/206863283-50dab0c3-dcca-43d0-a247-8ee3fa4d359f.PNG)
+
 
 * !쇼핑 명령어에 대한 잘못된 카테고리 입력
 ![error_shop](https://user-images.githubusercontent.com/107746547/206863394-37c3f689-e4f2-4a56-9d9e-71e1fe7ac217.PNG)
 
+
 * !색상 입력
 ![help_color](https://user-images.githubusercontent.com/107746547/206863409-83692c9c-e4d7-4b61-ac56-dd3147479728.PNG)
 
+
 * !색상 상의 green 입력
 ![color](https://user-images.githubusercontent.com/107746547/206863431-d3a405e7-a012-4d85-bbdd-07935c9d7b1f.PNG)
+
 
 * !색상 명령어에 대한 잘못된 입력
   * 카테고리 잘못 입력
@@ -42,6 +51,7 @@ Discord API를 이용한 쇼핑을 도와주는 BOT 개발
   
   * 카테고리, 색상 잘못 입력
   ![2err](https://user-images.githubusercontent.com/107746547/206863495-1882ab82-f2f3-4048-9a87-48e7dc2e1833.PNG)
+  
   
 * !추천 받기 입력
 ![recommend](https://user-images.githubusercontent.com/107746547/206863548-20c1970c-676d-4d06-a613-2a5dc6de1e1c.PNG)
