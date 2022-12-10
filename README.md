@@ -25,7 +25,7 @@ Discord API를 이용한 쇼핑을 도와주는 BOT 개발
 
 * `!도움말` 입력
  
-![help](https://user-images.githubusercontent.com/107746547/206863214-f78ccd6d-38f4-43a9-906d-e83d7e9d9d51.PNG)
+![help](https://user-images.githubusercontent.com/107746547/206870108-7c80d9a1-50a9-46a3-a4dc-26e4aa8e15d3.PNG)
 
 
 * `!쇼핑` 입력
@@ -68,9 +68,9 @@ Discord API를 이용한 쇼핑을 도와주는 BOT 개발
   ![2err](https://user-images.githubusercontent.com/107746547/206863495-1882ab82-f2f3-4048-9a87-48e7dc2e1833.PNG)
   
   
-* `!추천 받기` 입력
+* `!추천받기` 입력
 
-![recommend](https://user-images.githubusercontent.com/107746547/206863887-325729c2-249a-496d-b70e-c5fbabc63dec.PNG)
+![recommend](https://user-images.githubusercontent.com/107746547/206870155-bdbd25c1-aeac-4d03-8adb-9c1e3d7408b3.PNG)
 
 
 ## How to Use  :jeans:
@@ -78,8 +78,11 @@ Discord API를 이용한 쇼핑을 도와주는 BOT 개발
 
 https://discord.com/oauth2/authorize?client_id=1042075320930541620&permissions=8&scope=bot
 
-## Requirement  :shoe:
-프로젝트 개발 시 사용한 패키지 목록
+## File  :shoe:
+* requirement.txt : 프로젝트 개발 시 사용한 패키지 목록
+* main.py : 봇 실행할 최종 파일
+* zip.py : 기능에 필요한 크롤링 모음 파일
+* data.py : 크롤링에 필요한 url과 dictionary 모음
 
 ## License :eyeglasses:
 MIT 라이센스 적용
