@@ -25,7 +25,7 @@ Discord API를 이용한 쇼핑을 도와주는 BOT 개발
 
 * `!도움말` 입력
  
-![help](https://user-images.githubusercontent.com/107746547/206863214-f78ccd6d-38f4-43a9-906d-e83d7e9d9d51.PNG)
+![help](https://user-images.githubusercontent.com/107746547/206870108-7c80d9a1-50a9-46a3-a4dc-26e4aa8e15d3.PNG)
 
 
 * `!쇼핑` 입력
