@@ -1,2 +1,5 @@
-# API KEY
 .env
+__pycache__/
+*.pyc
+.idea/
+venv/
